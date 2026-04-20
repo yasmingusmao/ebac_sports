@@ -28,7 +28,7 @@ function App() {
       <GlobalStyle />
       <div className="container">
         <Header />
-        <Produtos produtos={produtos} favoritar={favoritar} />
+        <Produtos produtos={produtos} />
       </div>
     </Provider>
   )
